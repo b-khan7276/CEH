@@ -45,4 +45,43 @@ hping3 --scan 0-500 -S 172.16.99.139
  ```bash
  hping3 --flood -S -V --rand-source ww.owaspbwa.com
  ```
+
+### [Nmap](https://nmap.org/)
+
+  - Nmap useful tools
+    - Zenmap
+    - ncat
+    - ndiff
+    - nping
+   
+  <h4> Nmap uses Raw Ip packets </h4>
+    
+   - What host are avalible
+   -  Which Ports are accesible
+   -  Service and version detection
+   -  What OS is running
+   -  FireWall detection
+   -  Vulnerability assessment
+   -  Brute forece attacks
+   -  Exploitation
+   
+  ### Ping Scan
+  <b>Find out host in a network</b>
+  
+  ### Port Scan
+  
+   - SYN Scan
+   - TCP Scan
+   - UDP Scan
+    
+ ### Services and version detection
+ 
+ ### Os Detection
+ 
+ ### Script Scan
+ 
+ ### Timing
+ 
+ ## IPS/IDS Evasion
+ 
  
