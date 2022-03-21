@@ -113,6 +113,8 @@ hping3 --scan 0-500 -S 172.16.99.139
    - 1: Physcial Layer
         - Bitwise transportaton 
             - Coaxial cables, fiber cables etc
+   <img src="https://raw.githubusercontent.com/b-khan7276/CEH/main/layer%20and%20protocols.png" height="350" width="750" />
+   
             
   
   ### Port Scan
