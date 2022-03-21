@@ -68,6 +68,53 @@ hping3 --scan 0-500 -S 172.16.99.139
   ### Ping Scan
   <b>Find out host in a network</b>
   
+  <b> Nmap Ping scan = Np Port scan (-sn | -sp) </b>
+  
+   - Detection Live hosts
+       - Only print out the avaiable hosts that responded  to the host discovery probes
+   - (nmap -sn ) > Default behaviour for Pivileged User
+          
+       - ICMP echo request
+       - SYN => TCP 442 port
+       - ACK => TCP 80 Port
+       - ICMP timestamo request
+   - (nmap -sn ) > Default behaviour for unprivileged User
+       - SYN ==> TCP 80, 443 ports
+    
+  #### Ping scan 
+   ```bash
+   # Scan the host
+   nmap -sn 132.158.34.1/24
+   
+   # To get the ip addresses only
+   sudo nmap -sn 172.16.99.0/24 -n | grep "Nmap scan" | cut -d" " -f5
+  
+   ```
+   #### [TCP/Ip basics](https://www.techtarget.com/searchnetworking/definition/OSI)
+      
+   - 7: Appicaton Layer
+        - Apps with user intercation 
+            - HTTP, SMTP
+   - 6: Presentation Layer
+        - Meeting differnt formats || It is a part of OS
+            - ACSII, MP3, JSG
+   - 5: Session Layer
+        - Sessions and sockets
+            - SQL, RPC
+   - 4: Transport Layerr 
+        - Flow and error control
+            - TCP, UDP
+   - 3: Network Layer
+        - END TO END communication, virtual addresses
+            - IP
+   - 2: Data Link Layer
+       - Assessing media
+          - Ethernet, Wireless
+   - 1: Physcial Layer
+        - Bitwise transportaton 
+            - Coaxial cables, fiber cables etc
+            
+  
   ### Port Scan
   
    - SYN Scan
