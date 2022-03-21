@@ -118,10 +118,17 @@ hping3 --scan 0-500 -S 172.16.99.139
             
   
   ### Port Scan
-  
+  #### Types of port scan
    - SYN Scan
    - TCP Scan
    - UDP Scan
+   - SYN Scan vs TCP Scan 
+   - Some other scans
+
+  - SYN Scan (-sS)
+   - Quick Scan
+   - cant be stoped by firewalls
+   - 
     
  ### Services and version detection
  
