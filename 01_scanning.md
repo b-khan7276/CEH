@@ -16,7 +16,10 @@
   - Ping, Teacert, Etc
 
 ### Passive scan Wireshark
-```bash  sudo wireshark ```
+```bash  sudo wireshark
+# specific scan
+ip.addr == 192.168.18.136 && tcp 
+```
 ### [HPing `Active Scan` ](https://github.com/antirez/hping)
  - Command-line
  - TCP/IP packet analyser
@@ -125,10 +128,39 @@ hping3 --scan 0-500 -S 172.16.99.139
    - SYN Scan vs TCP Scan 
    - Some other scans
 
-  - SYN Scan (-sS)
-   - Quick Scan
-   - cant be stoped by firewalls
-   - 
+ ### - SYN Scan (-sS)
+       - Quick Scan
+       - cant be stoped by firewalls
+    ```bash
+    nmap -sS 172.12.99.0/24 --top-ports 50
+    # Scan port fast
+      nmap -sS 192.168.18.6 -F
+    # scan ports between
+    nmap -sS -sU 192.32.34.32 -pT:80,443,U,139-150
+    # top ports 
+    nmap -sS 171.15.66.206 --top-ports 20
+    # scall all ports 
+    namp -sS 172.16.99.295 -p1-65535
+    # or 
+      nmap -sS 172.16.99.295 -p1- 
+    ```
+   
+ ### Detecting hosts Port scan 
+  - what if a host's Ping service is closed
+  - Especially while scanning from out side and scanning serve blocks
+   ```bash 
+   nmap -sS --top-ports10 --open 172.20.1.9/24 -pn -n
+  ```
+  
+  ### TCP Scan
+  ```bash
+  nmap -sT -n -Pn 172.33.33.206 --top-ports 10
+  
+  # scan a specific port
+  sudo nmap -sT -n -Pn 192.168.18.116 -p80
+
+  ```
+    
     
  ### Services and version detection
  
