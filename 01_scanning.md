@@ -118,6 +118,8 @@ hping3 --scan 0-500 -S 172.16.99.139
             - Coaxial cables, fiber cables etc
    <img src="https://raw.githubusercontent.com/b-khan7276/CEH/main/layer%20and%20protocols.png" height="350" width="750" />
    
+ 
+   
             
   
   ### Port Scan
@@ -160,7 +162,26 @@ hping3 --scan 0-500 -S 172.16.99.139
   sudo nmap -sT -n -Pn 192.168.18.116 -p80
 
   ```
-    
+  <img src="https://raw.githubusercontent.com/b-khan7276/CEH/main/syn%20scan%20vs%20TCP%20scan.png" height="235" >
+  
+  ### UDP Scan (-sU)
+   
+   - Takes long time (Timeouts)
+   - some imp ports: DNS (53), TFTP(69), DHCP (67-68), NTP(124), SNMP (161-162)
+   - Sends empty UDP packets in general.
+   - Should run with version detection options for more accurate results
+   
+   ```bash
+   nmap -sU -Pn 192.168.18.136 --top-ports 10 --reason -sV
+```
+ ## Nmap Script scanning
+ 
+<img src="https://raw.githubusercontent.com/b-khan7276/CEH/main/nmap%20script%20scanning.png" height="235">
+
+###  Nmap scrips
+   <img src ="https://raw.githubusercontent.com/b-khan7276/CEH/main/script%20scanning%20nmap.png" height="400"/>
+ 
+ 
     
  ### Services and version detection
  
