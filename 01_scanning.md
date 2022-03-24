@@ -181,16 +181,21 @@ hping3 --scan 0-500 -S 172.16.99.139
 ###  Nmap scrips
    <img src ="https://raw.githubusercontent.com/b-khan7276/CEH/main/script%20scanning%20nmap.png" height="400"/>
  
+ ```bash 
+ #scan all port with ssh script
+ nmap 192.168.18.116 -p- --script ssh* -sV
+
+ ```
+ ### Helpful scrips
+
+ <img src ="https://raw.githubusercontent.com/b-khan7276/CEH/main/helpful%20scrips.png" height="400"/>    
  
-    
- ### Services and version detection
- 
- ### Os Detection
- 
- ### Script Scan
- 
- ### Timing
- 
- ## IPS/IDS Evasion
+### ByPassing IPS/IDS Devices
+  
+ <img src ="https://raw.githubusercontent.com/b-khan7276/CEH/main/bypass%20IPS-IDS.png" height="400"/>
+
+
+
+
  
  
