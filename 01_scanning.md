@@ -68,6 +68,9 @@ hping3 --scan 0-500 -S 172.16.99.139
    -  Brute forece attacks
    -  Exploitation
    
+   
+  ### [Nmap Cheat sheet](https://www.stationx.net/nmap-cheat-sheet/)
+  
   ### Ping Scan
   <b>Find out host in a network</b>
   
