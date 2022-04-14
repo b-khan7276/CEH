@@ -1,5 +1,8 @@
 # All  the tools
 
+  - Cross Linkedpython3 crosslinked.py -h
+python3 crosslinked.py -h
+
 
 ## [Cross Linked](https://github.com/m8r0wn/CrossLinked)
 
@@ -9,7 +12,14 @@
 
 <b> To run </b>
 ```bash
+
+# Help
 python3 crosslinked.py -h
+
+# To get the info
+python3 crosslinked.py -f '{first}.{last}@domain.com' google 
+
+
 ```
 
   
