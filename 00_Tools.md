@@ -1,7 +1,6 @@
 # All  the tools
 
-  - Cross Linkedpython3 crosslinked.py -h
-python3 crosslinked.py -h
+  -  <a href="#Cross Linked">Cross Linked</a> 
 
 
 ## [Cross Linked](https://github.com/m8r0wn/CrossLinked)
@@ -14,10 +13,12 @@ python3 crosslinked.py -h
 ```bash
 
 # Help
-python3 crosslinked.py -h
+└─$ python3 crosslinked.py -h
 
 # To get the info
-python3 crosslinked.py -f '{first}.{last}@domain.com' google 
+└─$ python3 crosslinked.py -f '{first}.{last}@domain.com' google 
+
+└─$ python3 crosslinked.py -f 'google\{f}{last}' -t 45 -j 0.5 google
 
 
 ```
