@@ -2,7 +2,7 @@
 
   -  <a href="##Cross Linked">Cross Linked</a> 
   -  <a href="##FireBug">FireBug (Windows) </a> 
-  - <a href"" Web Data Extractor (Windows)</a>
+  - <a href="##Web Data Extractor "> Web Data Extractor (Windows)</a>
 
 ## [Cross Linked](https://github.com/m8r0wn/CrossLinked)
 
