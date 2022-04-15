@@ -2,7 +2,7 @@
 
   -  <a href="##Cross Linked">Cross Linked</a> 
   -  <a href="##FireBug">FireBug (Windows) </a> 
-  - <a href""> <?/a>
+  - <a href""> Web Data Extractor (Windows)</a>
 
 ## [Cross Linked](https://github.com/m8r0wn/CrossLinked)
 
@@ -23,11 +23,12 @@
 
 
 ```
-[FireBug]
+## [FireBug]
 
 <p>
   Firebug is a discontinued free and open-source web browser extension for Mozilla Firefox that facilitated the live debugging, editing, and monitoring of any website's CSS, HTML, DOM, XHR, and JavaScript. It is now inbuilt in Firefox.
   </p>
-  Firebug is a discontinued free and open-source web browser extension for Mozilla Firefox that facilitated the live debugging, editing, and monitoring of any website's CSS, HTML, DOM, XHR, and JavaScript. It is now inbuilt in Firefox.
+## [Web Data Extractor]
 
-  
+
+  <p> Web Data Extractor Pro is a web scraping tool specifically designed for mass-gathering of various data types. It can harvest URLs, phone and fax numbers, email addresses, as well as meta tag information and body text. Special feature of WDE Pro is custom extraction of structured data.</p>
