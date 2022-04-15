@@ -3,6 +3,7 @@
   -  <a href="##Cross Linked">Cross Linked</a> 
   -  <a href="##FireBug">FireBug (Windows) </a> 
   - <a href="##Web Data Extractor "> Web Data Extractor (Windows)</a>
+  - <a href=""> HTTRACK </a>
 
 ## [Cross Linked](https://github.com/m8r0wn/CrossLinked)
 
@@ -32,3 +33,13 @@
 ## Web Data Extractor
 
 <p> Web Data Extractor Pro is a web scraping tool specifically designed for mass-gathering of various data types. It can harvest URLs, phone and fax numbers, email addresses, as well as meta tag information and body text. Special feature of WDE Pro is custom extraction of structured data.</p>
+
+## HTTRACK
+
+<p>
+  HTTrack is a free and open-source Web crawler and offline browser, developed by Xavier Roche and licensed under the GNU General Public License Version 3. HTTrack allows users to download World Wide Web sites from the Internet to a local computer.
+  </p>
+  
+  
+
+
