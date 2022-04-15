@@ -1,6 +1,7 @@
 # All  the tools
 
   -  <a href="##Cross Linked">Cross Linked</a> 
+  -  <a href="##FireBug">FireBug (Windows) </a> 
 
 
 ## [Cross Linked](https://github.com/m8r0wn/CrossLinked)
@@ -22,5 +23,11 @@
 
 
 ```
+## [FireBug]
+
+<p>
+  Firebug is a discontinued free and open-source web browser extension for Mozilla Firefox that facilitated the live debugging, editing, and monitoring of any website's CSS, HTML, DOM, XHR, and JavaScript. It is now inbuilt in Firefox.
+  </p>
+  Firebug is a discontinued free and open-source web browser extension for Mozilla Firefox that facilitated the live debugging, editing, and monitoring of any website's CSS, HTML, DOM, XHR, and JavaScript. It is now inbuilt in Firefox.
 
   
